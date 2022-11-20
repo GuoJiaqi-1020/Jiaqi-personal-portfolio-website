@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styles3.css">
+      <script src="main_photo.js"></script>
+      <title>JIAQIGUO: Washington DC</title>
+   </head>
+   <body>
+       <h1 id="myHeader">
+          Blooming in Washington
+          <p>
+            By <a class="one" href=""> JACKY GUO</a>
+          </p>
+       </h1>
+       <HR align=center color=#000000 SIZE=2>
+       <ul class="nav-header">
+           <li><a href="home.html">Home</a></li>
+           <li><a href="about.html">About Me</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <div class="dropdown">
+               <a class="t_active">Projects</a>
+               <div class="dropdown-content">
+                 <a class="sub_active" href="washington.html">Washington</a>
+                 <a href="florida.html">Florida</a>
+               </div>
+          </div>
+       </ul>
+
+
+       <div align=center class="project_bio">
+           <p id="project_name">National Cherry Blossom Festival at DC</p><br>
+           <div>
+               <img src="img/WashingtonDC.jpg"
+                    width="500" height="333" alt="Jacky's photo">
+           </div>
+           <p>Nothing signifies the arrival of spring in the nation's capital quite like the blooming of the cherry
+               blossom trees and the National Cherry Blossom Festival to celebrate the occasion.</p>
+           <p>The Festival, which runs from March 20 – April 17, 2022, is full of events that honor American
+               and Japanese cultures and represents a close bond forged between the two countries that began
+               with Tokyo Mayor Yukio Ozaki’s gift of the trees back in 1912.</p><br>
+           <p id="word">My Photos,</p>
+           <section class="bookshelf"  id="featured-shelf"></section>
+       </div>
+
+
+   </body>
+
+   <script>
+      createPhotoshelf(photos_w, "#featured-shelf");
+   </script>
+</html>

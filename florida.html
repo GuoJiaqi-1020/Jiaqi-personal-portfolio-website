@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styles3.css">
+       <script src="main_photo.js"></script>
+      <title>JIAQIGUO: Florida</title>
+   </head>
+   <body>
+       <h1 id="myHeader">
+          Florida Dream
+          <p>
+            By <a class="one" href=""> JACKY GUO</a>
+          </p>
+       </h1>
+       <HR align=center color=#000000 SIZE=2>
+       <ul class="nav-header">
+           <li><a href="home.html">Home</a></li>
+           <li><a href="about.html">About Me</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <div class="dropdown">
+               <a class="t_active">Projects</a>
+               <div class="dropdown-content">
+                 <a href="washington.html">Washington</a>
+                 <a class="sub_active" href="florida.html">Florida</a>
+               </div>
+          </div>
+       </ul>
+
+<!--       content start from here-->
+       <div align=center class="project_bio">
+           <p id="project_name">Vacation to Florida</p><br>
+           <div>
+               <img src="img/FL.jpg"
+                    width="500" height="300" alt="Jacky's photo">
+           </div>
+           <p>Florida is known for its warm weather, beautiful beaches, and delicious seafood.
+               Florida is also famous for its unique culture and diverse population. </p>
+           <p>When most people think of Florida, they think of beaches, theme parks, and alligators.
+               But there is so much more to this southeastern state than that! From the bustling city
+               of Miami to the quiet towns on the Panhandle, Florida has something for everyone.</p>
+           <br><p id="word">My Photos,</p>
+           <section class="bookshelf"  id="featured-shelf"></section>
+       </div>
+
+
+   </body>
+
+   <script>
+      createPhotoshelf(photos_F, "#featured-shelf");
+   </script>
+</html>
