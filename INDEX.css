@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+p.serif{font-family:"Times New Roman",Times,serif;}
+p.sansserif{font-family:Arial,Helvetica,sans-serif;}
+
+HR{
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+}
+
+/*A General Header Setting of webpage*/
+#myHeader{
+    font-family:Arial,Helvetica,sans-serif;
+    color: black;
+    font-size:22px;
+    margin-left: 1.2%;
+    font-weight:900
+  }
+
+.homelink{
+    text-decoration: none
+}
+
+.subtitle {
+    font-size:20px;
+    color: rgb(84, 84, 84);
+}
+
+h1>p{
+    font-family:Arial,Helvetica,sans-serif;
+    font-weight:600;
+    font-size:11px;
+    color: rgb(126, 126, 126);}
+
+h1>p>a{
+  font-weight:100;
+  color: rgb(1, 1, 1);}
+
+/* visited link */
+a:visited {
+    color: #080808;
+}
+
+a:hover {
+    color: #808080;
+}
+/* selected link */
+a:active {
+    color: #2c2c2c;
+}
+
+h2>p {
+    font-size:17px;
+    color: rgb(13, 3, 13);
+    text-align: center;
+    font-weight:500
+}
+
+/*Nav bar setting*/
+.nav-header {
+    list-style-type: none;
+    font-size: 10pt;
+    position: absolute;
+    right: 1.2%;
+    top: 4pt;
+    display: inline-block;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+li{
+    float:left;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(211, 211, 211, 0);
+}
+
+li a{
+    display: inline-block;
+    color: #000000;
+    block-size: min-content;
+    margin-right: 12pt;
+    margin-left: 12pt;
+    background-color: #ffffff;
+}
+
+li a.t_active {
+    /*display: inline-block;*/
+    border-bottom:1px solid #0a0909;
+    font-weight: 600;
+}
+
+.dropdown
+{
+    display:inline-block;
+}
+
+li a, .dropbtn
+{
+    display:inline-block;
+    color: #000000;
+    text-align:center;
+    padding:14px 15px;
+    text-decoration:none;
+}
+
+.dropdown-content
+{
+    display:none;
+    font-size: 8pt;
+    background-color:#f9f9f9;
+    max-width:99px;
+}
+
+.dropdown-content a
+{
+    color: #1e1e1e;
+    text-align: center;
+    padding:16px 6px;
+    max-width: 99px;
+
+    text-decoration:none;
+    display:block;
+}
+
+div a.sub_active{
+    display:block;
+    color: #000000;
+    font-weight: 600;
+    text-decoration:none;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(215, 213, 213, 0.59)
+}
+
+.dropdown:hover .dropdown-content
+{
+    display:block;
+}
+
+div a.t_active{
+    display:inline-block;
+    color: #000000;
+    font-weight: 600;
+    padding:14px 16px;
+    text-decoration:none;
+    border-bottom:1px solid #0a0909;
+}
+
+
+
+/*Single project cover at homepage*/
+.book {
+  display: inline-block;
+  vertical-align: top;
+  width: 46.6%;
+  padding: 8pt;
+  margin-left: 1.2%;
+  margin-right: 0;
+  /*margin-right: 1.2%;*/
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 5px 5px 5px rgba(252, 252, 252, 0.2);
+}
+
+@media screen and (max-width: 1200px) {
+  .book {
+  display: inline-block;
+  vertical-align: top;
+  /*height: 100%;*/
+  width: 96%;
+  margin-left: 1.2%;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgba(252, 252, 252, 0.2);
+}
+
+}
+
+.book:hover{background-color: rgba(208, 208, 208, 0.3);}
+.book:active{box-shadow: none;}
+
+.book .author,
+.book .title,
+.book .book-info
+{
+    font-size: 13px;
+    margin: 0;
+}
+
+.book .title{
+    font-weight: 600;
+    margin: 5px auto;
+    font-size: 25px;
+}
+
+.book .cover{
+
+    width: 100%;
+    display: block;
+    margin: 12px auto;
+    /*object-fit: none;*/
+    /*object-position: 50% 50%;*/
+    /*clip-path: inset(20% 0 20% 0);*/
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.book .book-info
+{
+    color: #555;
+    font-size: 6pt;
+}
+
+.book .author{
+    color: #2c2c2c;
+    font-size: 13px;
+}
+
+.book .desc{
+    color: #2c2c2c;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 15px;
+}

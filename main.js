@@ -8,7 +8,7 @@ var books = [
   pages:"Florida, Miami",
   ebook:false,
   cover: "img/FL.jpg",
-  description: "Every day, the Sunshine State attracts hundreds of newcomers to its sandy shores – and it's not hard to see why. " +
+  description: "Everyday, the sunshine state attracts hundreds of newcomers to its sandy shores – and it's not hard to see why. " +
       "No state income tax, sunny weather, its diverse population," +
       " delectable food and exciting attractions make it a particularly interesting place to live."
 },
@@ -50,13 +50,12 @@ function createBookshelf(books, shelfSelector){
         <div class="author">${author}</div>
         <img class="cover" align="left" src=${cover} alt="Jacky's photo collection">
         <div class="book-info">
-            <span class="publisher">&copy;${year} ${publisher}</span>,
+            <span class="publisher">&copy; ${year} ${publisher}</span>,
             <span class="pages">${pages} </span>
         </div></a><br>
         <div class="desc">
             <span>${description}</span>
         </div>`;
-
 
         let container = document.createElement("div");
         container.className="book";

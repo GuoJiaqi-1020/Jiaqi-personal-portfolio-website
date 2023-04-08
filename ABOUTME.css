@@ -152,77 +152,6 @@ div a.t_active{
 
 
 
-/*Single project cover at homepage*/
-.book {
-  display: inline-block;
-  vertical-align: top;
-  width: 46%;
-  padding: 8pt;
-  margin-left: 1.2%;
-  margin-right: 1.2%;
-  background-color: rgba(255, 255, 255, 0);
-  box-shadow: 5px 5px 5px rgba(252, 252, 252, 0.2);
-}
-
-@media screen and (max-width: 1200px) {
-  .book {
-  display: inline-block;
-  vertical-align: top;
-  height: 100%;
-  width: 93.8%;
-  margin: 1.2%;
-  padding: 12px;
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 2px;
-  box-shadow: 5px 5px 5px rgba(252, 252, 252, 0.2);
-}
-
-}
-
-.book:hover{background-color: rgba(208, 208, 208, 0.3);}
-.book:active{box-shadow: none;}
-
-.book .author,
-.book .title,
-.book .book-info
-{
-    font-size: 13px;
-    margin: 0;
-}
-
-.book .title{
-    font-weight: 600;
-    margin: 5px auto;
-    font-size: 25px;
-}
-
-.book .cover{
-    height: 100%;
-    width: 100%;
-    display: block;
-    margin: 12px auto;
-    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
-}
-
-.book .book-info
-{
-    color: #555;
-    font-size: 6pt;
-}
-
-.book .author{
-    color: #2c2c2c;
-    font-size: 13px;
-}
-
-.book .desc{
-    color: #2c2c2c;
-    text-align: justify;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-
 /*Biograph setting*/
 span a:hover:not(.active){
     background: rgba(255, 255, 255, 0);
@@ -245,6 +174,12 @@ span a:hover:not(.active){
     max-width: 75%;
     font-family: "Times New Roman", Times, serif;
     font-size: 13pt;
+}
+
+.biograph a{
+    color: #a758b4;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .wrapper {
@@ -330,74 +265,9 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
     color: #ffffff;
 }
 
-/*project individual part*/
-.project_bio p{
-    max-width: 37%;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 10pt;
-}
-
-#project_name{
-    font-size: 30pt;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-family: "Edwardian Script ITC", serif ;
-}
-
-
-/*individual photos*/
-.photo {
-  display: inline-block;
-  vertical-align: top;
-  height: 210px;
-  width: 282px;
-  margin: 5px;
-  padding: 12px;
-  background-color: #ffffff;
-  border-radius: 2px;
-  box-shadow: 5px 5px 5px rgba(252, 252, 252, 0.2);
-}
-
-.photo:hover{background-color: rgba(208, 208, 208, 0.3);}
-.photo:active{box-shadow: none;}
-
-.photo .author,
-.photo .title,
-.photo .photo-info
-{
-
-    margin: 0;
-}
-
-.photo .cover{
-    height: 190px;
-    width: 282px;
-    display: inline-flex;
-    margin: 2px auto;
-    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
-}
-
-div span.publisher
-{
-    font-family:Arial,Helvetica,sans-serif;
-    color: #555;
-    font-size: 8px;
-}
-
-/*this is the setting for contact page*/
-p.word_contact{
-    font-size: 25pt;
-    font-weight: 500;
-    padding-bottom: 0;
-    font-family: "Edwardian Script ITC", serif ;
-}
-
-p a.contact{
-    font-size: 12pt;
-    padding: -10pt;
-    color: #000000;
-}
-
-#resume{
-    color: #0278b6;
+.wrapper .envelope:hover,
+.wrapper .envelope:hover .tooltip,
+.wrapper .envelope:hover .tooltip::before {
+    background: rgb(130, 130, 130);
+    color: #ffffff;
 }
