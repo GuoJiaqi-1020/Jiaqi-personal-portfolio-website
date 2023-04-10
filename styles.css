@@ -330,6 +330,13 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
     color: #ffffff;
 }
 
+.wrapper .envelope:hover,
+.wrapper .envelope:hover .tooltip,
+.wrapper .envelope:hover .tooltip::before {
+    background: rgb(130, 130, 130);
+    color: #ffffff;
+}
+
 /*project individual part*/
 .project_bio p{
     max-width: 37%;

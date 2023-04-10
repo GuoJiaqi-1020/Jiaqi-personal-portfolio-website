@@ -164,7 +164,7 @@ span a:hover:not(.active){
     font-family: "Edwardian Script ITC", serif ;
 }
 #word{
-    font-size: 19pt;
+    font-size: 20pt;
     font-weight: 500;
     padding-bottom: 0;
     font-family: "Edwardian Script ITC", serif ;
@@ -173,14 +173,34 @@ span a:hover:not(.active){
 .biograph p{
     max-width: 75%;
     font-family: "Times New Roman", Times, serif;
-    font-size: 13pt;
+    font-size: 12pt;
 }
 
-.biograph a{
-    color: #a758b4;
+.biograph #UESTC{
+    color: #3076de;
     text-decoration: none;
     font-weight: 500;
 }
+
+.biograph #Glasgow{
+    color: #ffd02a;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.biograph #NU{
+    color: #7e4eb6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.biograph #IVPL{
+    color: #792423;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
 
 .wrapper {
     display: inline-block;

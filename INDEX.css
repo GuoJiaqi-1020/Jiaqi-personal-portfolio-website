@@ -224,4 +224,23 @@ div a.t_active{
     text-align: justify;
     font-weight: 400;
     font-size: 15px;
+    left: 3em; /* 左移一点以对齐文本 */
+}
+
+.drop-cap {
+  color: #2c2c2c;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 15px;
+  position: relative; /* 为 ::before 设置定位 */
+}
+
+.drop-cap:before {
+  content: attr(data-first-letter); /* 使用 attr() 函数引用 data-first-letter 属性 */
+  font-size: 2em;
+  /*position: justify; !* 相对于 .drop-cap 定位 *!*/
+  top: -0.1em; /* 上移一点以使字母下沉 */
+  left: -0.1em; /* 左移一点以对齐文本 */
+    font-weight: 600;
+  color: #333;
 }
