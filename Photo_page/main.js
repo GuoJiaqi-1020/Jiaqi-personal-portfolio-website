@@ -26,9 +26,6 @@ var books = [
       "Visit the District during this time and you’ll find the nation’s capital is accented in pink " +
       "for the National Cherry Blossom Festival."
 },
-
-
-
 ];
 
 function createBookshelf(books, shelfSelector){
@@ -56,7 +53,6 @@ function createBookshelf(books, shelfSelector){
         <div class="desc">
           <span class= "lettrine">${description.charAt(0)}</span>${description.substring(1)}
         </div>`;
-
 
         let container = document.createElement("div");
         container.className="book";
