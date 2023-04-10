@@ -3,11 +3,11 @@ var books = [
   title: "Florida Dream",
   author: "Jacky's trip to Florida in the Summer of 2021",
   year: 2021,
-  link: "florida.html",
+  link: "./Photo_page/florida.html",
   publisher: "Jiaqiguo",
   pages:"Florida, Miami",
   ebook:false,
-  cover: "img/FL.jpg",
+  cover: "./Photo_page/img/FL.jpg",
   description: "Everyday, the sunshine state attracts hundreds of newcomers to its sandy shores. " +
       "No state income tax, sunny weather, its diverse population," +
       " delectable food and exciting attractions make it a particularly interesting place to live."
@@ -17,11 +17,11 @@ var books = [
   title: "Blooming in Washington",
   author: "Jacky's trip to Washington, DC in the Spring of 2022",
   year: 2022,
-  link: "washington.html",
+  link: "./Photo_page/washington.html",
   publisher: "Jiaqiguo",
   pages: "Washington, DC, Cherry Blossom Festival",
   ebook:false,
-  cover: "img/WashingtonDC.jpg",
+  cover: "./Photo_page/img/WashingtonDC.jpg",
   description: "The cherry blossom trees are without a doubt the stars of springtime in Washington, DC. " +
       "Visit the District during this time and you’ll find the nation’s capital is accented in pink " +
       "for the National Cherry Blossom Festival."
@@ -54,7 +54,7 @@ function createBookshelf(books, shelfSelector){
             <span class="pages">${pages} </span>
         </div></a><br>
         <div class="desc">
-          <span class= "drop-cap" data-first-letter=${description.charAt(0)}>${description.substring(1)}</span>
+          <span class= "lettrine">${description.charAt(0)}</span>${description.substring(1)}
         </div>`;
 
 

@@ -235,12 +235,11 @@ div a.t_active{
   position: relative; /* 为 ::before 设置定位 */
 }
 
-.drop-cap:before {
-  content: attr(data-first-letter); /* 使用 attr() 函数引用 data-first-letter 属性 */
-  font-size: 2em;
-  /*position: justify; !* 相对于 .drop-cap 定位 *!*/
-  top: -0.1em; /* 上移一点以使字母下沉 */
-  left: -0.1em; /* 左移一点以对齐文本 */
-    font-weight: 600;
-  color: #333;
+.lettrine {
+    float: left;
+    font-size: 2.7em;
+    line-height: 0.75em;
+    /*margin-right: 0.01em;*/
+    margin-top: 0.05em;
+    padding-right: 0.05em;
 }

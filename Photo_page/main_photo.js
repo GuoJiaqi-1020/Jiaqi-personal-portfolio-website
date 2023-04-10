@@ -1,10 +1,9 @@
 var photos_w = [
 {
   year: 2022,
-  link: "florida.html",
   publisher: "JiaqiGuo",
   ebook:false,
-  cover: "img/W1.jpg",
+  cover: "https://drive.google.com/file/d/1amsPS_r1gl46reWJoHNlmElBjwTeyxit/view?usp=share_link",
   name:"Cherry blossoms on the ground"
 },
 
@@ -62,6 +61,7 @@ var photos_F = [
   name:"Sunset over South Beach"
 },
 
+
 {
   year: 2021,
   publisher: "JiaqiGuo",
@@ -116,7 +116,7 @@ function createPhotoshelf(photos, shelfSelector){
         // You will add your content here for
         let html=`
         <div class="photo-info">
-            <img class="cover" align="left" src=${cover} alt="Jacky's photo collection">
+            <img class="cover"  src=${cover} alt="Jacky's photo collection">
             <span class="publisher">&copy;${year} ${publisher}, ${name}</span> 
         </div>`;
         let container = document.createElement("div");
@@ -131,3 +131,4 @@ function createPhotoshelf(photos, shelfSelector){
   }
 
 }
+
