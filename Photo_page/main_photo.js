@@ -53,7 +53,7 @@ var photos_F = [
   year: 2021,
   publisher: "JiaqiGuo",
   ebook:false,
-  cover: "img/F1.jpg",
+  cover: "https://drive.google.com/file/d/1amsPS_r1gl46reWJoHNlmElBjwTeyxit/preview",
   name:"Sunset over South Beach"
 },
 
@@ -62,7 +62,7 @@ var photos_F = [
   year: 2021,
   publisher: "JiaqiGuo",
   ebook:false,
-  cover: "img/F2.jpg",
+  cover: "https://drive.google.com/file/d/12oDkL135pmJRcj5E1VfuvK6KH0YAs4TE/preview",
   name:"Jellyfish"
 },
 
@@ -70,7 +70,7 @@ var photos_F = [
   year: 2021,
   publisher: "JiaqiGuo",
   ebook:false,
-  cover: "img/F3.jpg",
+  cover: "https://drive.google.com/file/d/13Zf-toZrL_-V6fowPUNU6tvpvMUHYolP/preview",
   name:"Evening Glow"
 },
 
@@ -78,7 +78,7 @@ var photos_F = [
   year: 2021,
   publisher: "JiaqiGuo",
   ebook:false,
-  cover: "img/F4.jpg",
+  cover: "https://drive.google.com/file/d/1vvrMGBP17AtqC50mHD90cnEr1Vq67jNx/preview",
   name:"Key West"
 },
 
@@ -86,7 +86,7 @@ var photos_F = [
   year: 2021,
   publisher: "JiaqiGuo",
   ebook:false,
-  cover: "img/F5.jpg",
+  cover: "https://drive.google.com/file/d/1oL4nEIRkOx8jnqpXV2e3rrIeu-hm8fWE/preview",
   name:"Fishing man"
 },
 
@@ -94,7 +94,7 @@ var photos_F = [
   year: 2021,
   publisher: "JiaqiGuo",
   ebook:false,
-  cover: "img/F6.jpg",
+  cover: "https://drive.google.com/file/d/1k29mPhX6C2OJqnYn1lkA3u3i1aNgPGWf/preview",
   name:"Early morning in Key West"
 },
 
