@@ -23,7 +23,7 @@ var books = [
   ebook:false,
   cover: "./Photo_page/img/WashingtonDC.jpg",
   description: "The cherry blossom trees are without a doubt the stars of springtime in Washington, DC. " +
-      "Visit the District during this time and you’ll find the nation’s capital is accented in pink " +
+      "Visit the District during this time and you will find the nation’s capital is accented in pink " +
       "for the National Cherry Blossom Festival."
 },
 ];
